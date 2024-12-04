@@ -1,20 +1,10 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
 int main(){
+	string str1="hello";
+	string str2="WORLD";
 	
-	int n;                 
-	long factorial= 1.0;
-	
-	cout<<"enter a no";
-	cin>>n;
-	if(n<0)
-	cout<<"error u entered a negative number";
-	else{
-		for(int i=1;i<=n;i++){
-	
-		factorial*=i;}
-		cout<<"fact of "<<n<<"="<<factorial;
-	
-	}
-	return 0;
+	string result=str1 + str2 ;
+	cout<<"concatenated string:"<<result;
 }
